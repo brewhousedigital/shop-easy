@@ -1,0 +1,14 @@
+{
+  "name": "Shop Easy",
+  "description": "This extension will hide prices from several of your favorite ecommerce shops",
+  "version": "1.0.0",
+  "manifest_version": 2,
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": [
+      "https://www.kohls.com/*"
+    ]
+  }]
+}
