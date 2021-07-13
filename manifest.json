@@ -4,11 +4,15 @@
   "version": "1.0.0",
   "manifest_version": 2,
 
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["content.js"],
-    "matches": [
-      "https://www.kohls.com/*"
-    ]
-  }]
+  "content_scripts": [
+    {
+      "css": ["stores/kohls.css"],
+      "matches": ["https://www.kohls.com/*"]
+    },
+
+    {
+      "css": ["stores/eshakti.css"],
+      "matches": ["https://www.eshakti.com/*"]
+    }
+  ]
 }

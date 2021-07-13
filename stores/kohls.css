@@ -15,7 +15,9 @@
 .product-footer-block-price-list-sale-price,
 .product-footer-block-price-list-strikethrough,
 .bd-flat-view-product-price-main-container,
-.order-summary-value {
+.order-summary-value,
+.bd-carousel-product-regular-price,
+.bd-carousel-product-sale-price {
     visibility: hidden!important;
 }
 
@@ -33,3 +35,24 @@
     left: 0!important;
     top: 42%!important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

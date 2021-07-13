@@ -1,0 +1,21 @@
+
+/* eShakti */
+.list-price,
+.product-price__text,
+.product-cost,
+.MainContentPlaceHolder_ListingPrice,
+.product-listing .label-container span:first-child,
+.product-listing .label-container .product-strike,
+.product-listing .label-container span[id*="matching-mask-price-slide"],
+#subTotalText,
+#totalText,
+.cart-product-price,
+.cart-product-strike,
+#MainContentPlaceHolder_esttotal {
+    visibility: hidden!important;
+}
+
+.cart-panel__cost,
+.cart-panel__total {
+    display: none;
+}
